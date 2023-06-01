@@ -16,4 +16,9 @@ $(function(){
         $('.jumpWindow').removeClass('display');
         $('.filter,.agentWindow').addClass('display');
     })
+
+    $(".agentWindow .check p").click(function(){
+        $('.jumpWindow').removeClass('display');
+        $('.filter,.ruleWindow').addClass('display');
+    })
 })
